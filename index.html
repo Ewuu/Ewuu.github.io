@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Cisco for you</title>
+    <link rel="stylesheet" href="style.css"  />
+    <script src="time.js"></script>
+    
+</head>
+<body>
+    <div id="container">
+        <div class="rectangle">
+            <img src="logo.png" /><br />
+            <span id="zegarLayer"></span>
+        </div>
+    </div>
+    <div id="border"></div>
+
+    <nav id="menu">
+        <ul>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#cisco">About</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="map">
+            <div class="container row">
+                <img src="mapa.jpg" usemap="#mapa" />
+                <map name="mapa">
+                    <area shape="rect" coords="112,58,369,264" href="https://www.cisco.com/c/en/us/products/switches/catalyst-9300-series-switches/index.html" alt="Przełącznik serii 9300" target="_blank">
+                    <area shape="rect" coords="488,57,745,264" href="https://www.cisco.com/c/en/us/products/switches/catalyst-9400-series-switches/index.html" alt="Przełącznik serii 9400" target="_blank">
+                    <area shape="rect" coords="111,353,370,560" href="https://www.cisco.com/c/en/us/products/routers/4000-series-integrated-services-routers-isr/index.html" alt="Router z serii Cisco 4000" target="_blank">
+                    <area shape="rect" coords="488,355,748,559" href="https://www.cisco.com/c/en/us/products/routers/cloud-services-router-1000v-series/index.html" alt="Router Cisco Cloud Services serii 1000V" target="_blank">
+                </map>
+            </div>
+        </section>
+
+        <section id="cisco">
+            <div class="container full row">
+                <img src="cisco1.png" />
+            </div>
+        </section>
+
+        <section id="news">
+            <div class="container full row">
+                <video controls style="margin-left:18%">
+                    <source src="video.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container full row">
+                <img src="contact.png" />
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <footer id="footer">
+        <div class="container row">
+            <p>&copy; Wszelkie prawa zastrzeżone</p>
+        </div>
+    </footer>
+
+</body>
+</html>

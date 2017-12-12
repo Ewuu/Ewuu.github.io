@@ -1,0 +1,139 @@
+﻿*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+    width: 100%;
+    
+}
+body {
+    border-top: 10px solid #049FD9;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 50px 10px;
+  width: 100%;
+  padding: 30px 0;
+}
+
+.container.full {
+  max-width: 100%;
+  padding: 0;
+}
+
+footer > .container {
+    padding: 10px 0;
+}
+
+.row::after {
+  content: '';
+  clear: both;
+  display: block;
+  width: 100%;
+}
+
+.full img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+}
+
+#container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rectangle {
+  width: 960px;
+  margin: 20px;
+  text-align: center;
+  
+}
+#zegarLayer {
+  font-size: 35px;
+  color: #049fd9;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 20px;
+}
+
+#border {
+  border-bottom: 10px solid grey;
+}
+
+#menu {
+  float: left;
+  width: 100%;
+  background: #fff;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+#menu ul {
+  clear: left;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  text-align: center;
+}
+
+#menu ul li {
+  display: block;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  right: 50%;
+}
+
+#menu ul li a {
+  display: block;
+  margin: 0 0 0 1px;
+  padding: 3px 10px;
+  background: #ddd;
+  color: #000;
+  text-decoration: none;
+  line-height: 20px;
+}
+
+#menu ul li a:hover {
+  background: #049fd9;
+  color: #fff;
+}
+
+#menu ul li a.zaznaczony,
+#menu ul li a.zaznaczony:hover {
+  color: #fff;
+  background: #000;
+  font-weight: bold;
+}
+
+#cisco {
+  border-top: 50px solid gainsboro;
+  border-bottom: 50px solid gainsboro;
+}
+
+.map {
+  display: block;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+
